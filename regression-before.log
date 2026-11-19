@@ -1,0 +1,48 @@
+
+ RUN  v4.1.12 /private/tmp/shapeshift-12799
+
+stderr | src/components/SelectAssets/SelectAssetRouter.test.tsx > SelectAssetRouter > renders the modal asset selector independently of the browser route /wallet
+`ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.
+relative pathnames are not supported in memory history: "search"
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+stderr | src/components/SelectAssets/SelectAssetRouter.test.tsx > SelectAssetRouter > renders the modal asset selector independently of the browser route /assets/eip155:1/slip44:60
+relative pathnames are not supported in memory history: "search"
+
+ ❯ |web| src/components/SelectAssets/SelectAssetRouter.test.tsx (3 tests | 2 failed) 19ms
+     × renders the modal asset selector independently of the browser route /wallet 12ms
+     × renders the modal asset selector independently of the browser route /assets/eip155:1/slip44:60 2ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |web| src/components/SelectAssets/SelectAssetRouter.test.tsx > SelectAssetRouter > renders the modal asset selector independently of the browser route /wallet
+ FAIL  |web| src/components/SelectAssets/SelectAssetRouter.test.tsx > SelectAssetRouter > renders the modal asset selector independently of the browser route /assets/eip155:1/slip44:60
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Select Ethereum"
+
+There are no accessible roles. But there might be some inaccessible roles. If you wish to access them, then set the `hidden` option to `true`. Learn more about this here: https://testing-library.com/docs/dom-testing-library/api-queries#byrole
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div />[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/components/SelectAssets/SelectAssetRouter.test.tsx:31:30
+     29|       )
+     30|
+     31|       fireEvent.click(screen.getByRole('button', { name: 'Select Ether…
+       |                              ^
+     32|       expect(onClick).toHaveBeenCalledWith('eip155:1/slip44:60')
+     33|       expect(window.location.pathname).toBe(pathname)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 1 passed (3)
+   Start at  14:38:30
+   Duration  275ms (transform 34ms, setup 33ms, import 77ms, tests 19ms, environment 85ms)
+
