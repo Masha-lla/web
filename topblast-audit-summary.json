@@ -1,0 +1,28 @@
+{
+  "day": "2026-11-14",
+  "transaction_count": 637,
+  "external_inflow_nanotons": "1746328761940",
+  "api": {
+    "chain": "ton",
+    "feeRate": 0.01,
+    "tonPriceUsd": 1.003996003996004,
+    "date": "2026-11-14",
+    "timestamp": 1794614400,
+    "dailyFees": 1753.3070986460293,
+    "dailyUserFees": 1753.3070986460293,
+    "dailyRevenue": 1753.3070986460293,
+    "dailyProtocolRevenue": 1753.3070986460293,
+    "dailySupplySideRevenue": 0,
+    "dailyHoldersRevenue": 0,
+    "dailyVolume": 175330.70986460292,
+    "dailyFeesTon": 1746.328761935,
+    "dailyVolumeTon": 174632.8761935
+  },
+  "withdrawal": {
+    "hash": "V9VZhnqwezhMKHCZZ+hqb0pl/So68d9k+P8+byG6lo0=",
+    "account": "0:EEE00893FFF24ABAA4F46678DED11A1721030F723E2E20661999EDD42B884594",
+    "now": 1794696427
+  },
+  "withdrawal_value_nanotons": "854303722936",
+  "groyp_labelled_nanotons": "13475328607"
+}

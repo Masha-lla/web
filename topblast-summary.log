@@ -1,0 +1,11 @@
+Topblast #11162 — same UTC day: 2026-11-14
+Public TON transactions read: 637 across 2 wallets
+External inflows: 1746.32876194 TON
+API dailyFeesTon: 1746.328761935 TON
+Difference: 5.000000000 nanotons
+Unrelated perps withdrawal: 854.303722936 TON
+Explicit GroypFi Fee / Gbot Fee comments: 13.475328607 TON
+Perps withdrawal / API reported fees: 48.9200 %
+API dailyVolumeTon / dailyFeesTon: 1E+2
+API reported USD fees: 1753.3070986460293
+No corrected Topblast fee/volume total is claimed: verified contract scope and fee split are still required.

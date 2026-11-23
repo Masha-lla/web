@@ -1,0 +1,16 @@
+{
+  "chain": "ton",
+  "feeRate": 0.01,
+  "tonPriceUsd": 1.003996003996004,
+  "date": "2026-11-14",
+  "timestamp": 1794614400,
+  "dailyFees": 1753.3070986460293,
+  "dailyUserFees": 1753.3070986460293,
+  "dailyRevenue": 1753.3070986460293,
+  "dailyProtocolRevenue": 1753.3070986460293,
+  "dailySupplySideRevenue": 0,
+  "dailyHoldersRevenue": 0,
+  "dailyVolume": 175330.70986460292,
+  "dailyFeesTon": 1746.328761935,
+  "dailyVolumeTon": 174632.8761935
+}

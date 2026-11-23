@@ -1,0 +1,26 @@
+
+ RUN  v4.1.12 /private/tmp/shapeshift-12673
+
+ ❯ |swap-widget| src/config/__tests__/appkit.test.ts (1 test | 1 failed) 3ms
+     × provides distinct network images for chains without built-in Reown icons 2ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |swap-widget| src/config/__tests__/appkit.test.ts > AppKit network artwork > provides distinct network images for chains without built-in Reown icons
+TypeError: .toMatch() expects to receive a string, but got undefined
+ ❯ src/config/__tests__/appkit.test.ts:28:41
+     26|     for (const id of [143, 4326, 999, 9745, 747474]) {
+     27|       expect(options.networks.some((network: { id: number }) => networ…
+     28|       expect(options.chainImages?.[id]).toMatch(/^https:\/\//)
+       |                                         ^
+     29|     }
+     30|     expect(options.chainImages[4326]).not.toBe(options.chainImages[1])
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed (1)
+   Start at  18:07:39
+   Duration  1.53s (transform 33ms, setup 0ms, import 560ms, tests 3ms, environment 870ms)
+
