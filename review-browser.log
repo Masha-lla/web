@@ -1,0 +1,4 @@
+before close buttons: 0
+after close buttons: 1
+after PASS: clear preserves dialog, Close dismisses, reopening empty, empty-query Close dismisses
+desktop PASS: keyboard Close
