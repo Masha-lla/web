@@ -1,0 +1,9 @@
+
+ RUN  v4.1.12 /private/tmp/shapeshift-11609
+
+
+ Test Files  2 passed (2)
+      Tests  18 passed (18)
+   Start at  12:00:20
+   Duration  6.95s (transform 2.72s, setup 90ms, import 7.61s, tests 476ms, environment 404ms)
+

@@ -1,0 +1,606 @@
+
+ RUN  v4.1.12 /private/tmp/shapeshift-11609
+
+stderr | src/components/Layout/Header/GlobalSearch/GlobalSearchModal.test.tsx > GlobalSearchModal dismissal > closes without choosing an asset for query ""
+`ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.
+⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition.
+⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath.
+
+ ❯ |web| src/components/Layout/Header/GlobalSearch/GlobalSearchModal.test.tsx (3 tests | 2 failed) 555ms
+     × closes without choosing an asset for query "" 89ms
+     × closes without choosing an asset for query "bitcoin" 113ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |web| src/components/Layout/Header/GlobalSearch/GlobalSearchModal.test.tsx > GlobalSearchModal dismissal > closes without choosing an asset for query ""
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Close"
+
+Here are the accessible roles:
+
+  dialog:
+
+  Name "":
+  [36m<section[39m
+    [33maria-describedby[39m=[32m"chakra-modal--body-_r_0_"[39m
+    [33maria-labelledby[39m=[32m"chakra-modal--header-_r_0_"[39m
+    [33maria-modal[39m=[32m"true"[39m
+    [33mclass[39m=[32m"chakra-modal__content css-1u1bkhp"[39m
+    [33mdata-testid[39m=[32m"global-search-modal"[39m
+    [33mid[39m=[32m"chakra-modal-_r_0_"[39m
+    [33mrole[39m=[32m"dialog"[39m
+    [33mstyle[39m=[32m"opacity: 0; transform: scale(0.95);"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"chakra-modal__header css-5ghwid"[39m
+    [33mid[39m=[32m"chakra-modal--header-_r_0_"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"chakra-input css-1kydl5l"[39m
+    [33mdata-testid[39m=[32m"global-search-input"[39m
+    [33mplaceholder[39m=[32m"Search"[39m
+    [33mvalue[39m=[32m""[39m
+  [36m/>[39m
+
+  --------------------------------------------------region:
+
+  Name "Notifications-top":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body[39m
+  [33mclass[39m=[32m"chakra-ui-light"[39m
+[36m>[39m
+  [36m<div[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+  [36m>[39m
+    [36m<span[39m
+      [33mhidden[39m=[32m""[39m
+      [33mid[39m=[32m"__chakra_env"[39m
+    [36m/>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"chakra-portal"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-hidden[39m=[32m"true"[39m
+      [33mclass[39m=[32m"chakra-modal__overlay css-g7naml"[39m
+      [33mdata-aria-hidden[39m=[32m"true"[39m
+      [33mstyle[39m=[32m"opacity: 0;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-hidden[39m=[32m"true"[39m
+      [33mdata-aria-hidden[39m=[32m"true"[39m
+      [33mdata-focus-guard[39m=[32m"true"[39m
+      [33mstyle[39m=[32m"width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33mdata-focus-lock-disabled[39m=[32m"false"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"chakra-modal__content-container css-1p5qd0n"[39m
+        [33mtabindex[39m=[32m"-1"[39m
+      [36m>[39m
+        [36m<section[39m
+          [33maria-describedby[39m=[32m"chakra-modal--body-_r_0_"[39m
+          [33maria-labelledby[39m=[32m"chakra-modal--header-_r_0_"[39m
+          [33maria-modal[39m=[32m"true"[39m
+          [33mclass[39m=[32m"chakra-modal__content css-1u1bkhp"[39m
+          [33mdata-testid[39m=[32m"global-search-modal"[39m
+          [33mid[39m=[32m"chakra-modal-_r_0_"[39m
+          [33mrole[39m=[32m"dialog"[39m
+          [33mstyle[39m=[32m"opacity: 0; transform: scale(0.95);"[39m
+          [33mtabindex[39m=[32m"-1"[39m
+        [36m>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"chakra-modal__header css-5ghwid"[39m
+            [33mid[39m=[32m"chakra-modal--header-_r_0_"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"chakra-input__group css-bx0blc"[39m
+              [33mdata-group[39m=[32m"true"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"chakra-input__left-element css-pu7kdr"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mclass[39m=[32m"chakra-icon css-14n5d5k"[39m
+                  [33mfocusable[39m=[32m"false"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"[39m
+                    [33mfill[39m=[32m"currentColor"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+              [36m</div>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"chakra-input css-1kydl5l"[39m
+                [33mdata-testid[39m=[32m"global-search-input"[39m
+                [33mplaceholder[39m=[32m"Search"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</header>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"chakra-modal__body css-1efknit"[39m
+            [33mid[39m=[32m"chakra-modal--body-_r_0_"[39m
+          [36m/>[39m
+        [36m</section>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33maria-hidden[39m=[32m"true"[39m
+      [33mdata-aria-hidden[39m=[32m"true"[39m
+      [33mdata-focus-guard[39m=[32m"true"[39m
+      [33mstyle[39m=[32m"width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m/>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"chakra-portal"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top-left"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top-right"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom-left"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom-right"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/components/Layout/Header/GlobalSearch/GlobalSearchModal.test.tsx:68:28
+     66|     if (query) fireEvent.change(screen.getByRole('textbox'), { target:…
+     67|
+     68|     fireEvent.click(screen.getByRole('button', { name: 'Close', exact:…
+       |                            ^
+     69|
+     70|     expect(onClose).toHaveBeenCalledOnce()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  |web| src/components/Layout/Header/GlobalSearch/GlobalSearchModal.test.tsx > GlobalSearchModal dismissal > closes without choosing an asset for query "bitcoin"
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Close"
+
+Here are the accessible roles:
+
+  region:
+
+  Name "Notifications-top":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------dialog:
+
+  Name "bitcoin Loading...":
+  [36m<section[39m
+    [33maria-describedby[39m=[32m"chakra-modal--body-_r_3_"[39m
+    [33maria-labelledby[39m=[32m"chakra-modal--header-_r_3_"[39m
+    [33maria-modal[39m=[32m"true"[39m
+    [33mclass[39m=[32m"chakra-modal__content css-1u1bkhp"[39m
+    [33mdata-testid[39m=[32m"global-search-modal"[39m
+    [33mid[39m=[32m"chakra-modal-_r_3_"[39m
+    [33mrole[39m=[32m"dialog"[39m
+    [33mstyle[39m=[32m"opacity: 0; transform: scale(0.95);"[39m
+    [33mtabindex[39m=[32m"-1"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  banner:
+
+  Name "":
+  [36m<header[39m
+    [33mclass[39m=[32m"chakra-modal__header css-5ghwid"[39m
+    [33mid[39m=[32m"chakra-modal--header-_r_3_"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  textbox:
+
+  Name "":
+  [36m<input[39m
+    [33mclass[39m=[32m"chakra-input css-1eskgb6"[39m
+    [33mdata-testid[39m=[32m"global-search-input"[39m
+    [33mplaceholder[39m=[32m"Search"[39m
+    [33mvalue[39m=[32m"bitcoin"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "Clear":
+  [36m<button[39m
+    [33maria-label[39m=[32m"Clear"[39m
+    [33mclass[39m=[32m"chakra-button css-rf09k8"[39m
+    [33mdata-loading[39m=[32m""[39m
+    [33mdisabled[39m=[32m""[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------region:
+
+  Name "Notifications-top":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body[39m
+  [33mclass[39m=[32m"chakra-ui-light"[39m
+[36m>[39m
+  [36m<div[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+  [36m>[39m
+    [36m<span[39m
+      [33mhidden[39m=[32m""[39m
+      [33mid[39m=[32m"__chakra_env"[39m
+    [36m/>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mclass[39m=[32m"chakra-portal"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-hidden[39m=[32m"true"[39m
+      [33mclass[39m=[32m"chakra-modal__overlay css-g7naml"[39m
+      [33mdata-aria-hidden[39m=[32m"true"[39m
+      [33mstyle[39m=[32m"opacity: 0;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-hidden[39m=[32m"true"[39m
+      [33mdata-aria-hidden[39m=[32m"true"[39m
+      [33mdata-focus-guard[39m=[32m"true"[39m
+      [33mstyle[39m=[32m"width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33mdata-focus-lock-disabled[39m=[32m"false"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"chakra-modal__content-container css-1p5qd0n"[39m
+        [33mtabindex[39m=[32m"-1"[39m
+      [36m>[39m
+        [36m<section[39m
+          [33maria-describedby[39m=[32m"chakra-modal--body-_r_0_"[39m
+          [33maria-labelledby[39m=[32m"chakra-modal--header-_r_0_"[39m
+          [33maria-modal[39m=[32m"true"[39m
+          [33mclass[39m=[32m"chakra-modal__content css-1u1bkhp"[39m
+          [33mdata-testid[39m=[32m"global-search-modal"[39m
+          [33mid[39m=[32m"chakra-modal-_r_0_"[39m
+          [33mrole[39m=[32m"dialog"[39m
+          [33mstyle[39m=[32m"opacity: 0; transform: scale(0.95);"[39m
+          [33mtabindex[39m=[32m"-1"[39m
+        [36m>[39m
+          [36m<header[39m
+            [33mclass[39m=[32m"chakra-modal__header css-5ghwid"[39m
+            [33mid[39m=[32m"chakra-modal--header-_r_0_"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"chakra-input__group css-bx0blc"[39m
+              [33mdata-group[39m=[32m"true"[39m
+            [36m>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"chakra-input__left-element css-pu7kdr"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33mclass[39m=[32m"chakra-icon css-14n5d5k"[39m
+                  [33mfocusable[39m=[32m"false"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M23.384,21.619,16.855,15.09a9.284,9.284,0,1,0-1.768,1.768l6.529,6.529a1.266,1.266,0,0,0,1.768,0A1.251,1.251,0,0,0,23.384,21.619ZM2.75,9.5a6.75,6.75,0,1,1,6.75,6.75A6.758,6.758,0,0,1,2.75,9.5Z"[39m
+                    [33mfill[39m=[32m"currentColor"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+              [36m</div>[39m
+              [36m<input[39m
+                [33mclass[39m=[32m"chakra-input css-1kydl5l"[39m
+                [33mdata-testid[39m=[32m"global-search-input"[39m
+                [33mplaceholder[39m=[32m"Search"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+            [36m</div>[39m
+          [36m</header>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"chakra-modal__body css-1efknit"[39m
+            [33mid[39m=[32m"chakra-modal--body-_r_0_"[39m
+          [36m/>[39m
+        [36m</section>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+    [36m<div[39m
+      [33maria-hidden[39m=[32m"true"[39m
+      [33mdata-aria-hidden[39m=[32m"true"[39m
+      [33mdata-focus-guard[39m=[32m"true"[39m
+      [33mstyle[39m=[32m"width: 1px; height: 0px; padding: 0px; overflow: hidden; position: fixed; top: 1px; left: 1px;"[39m
+      [33mtabindex[39m=[32m"0"[39m
+    [36m/>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"chakra-portal"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top-left"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top-right"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom-left"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom-right"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33maria-hidden[39m=[32m"true"[39m
+    [33mdata-aria-hidden[39m=[32m"true"[39m
+  [36m>[39m
+    [36m<span[39m
+      [33mhidden[39m=[32m""[39m
+      [33mid[39m=[32m"__chakra_env"[39m
+    [36m/>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"chakra-portal"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-hidden[39m=[32m"true"[39m
+      [33mclass[...
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/components/Layout/Header/GlobalSearch/GlobalSearchModal.test.tsx:68:28
+     66|     if (query) fireEvent.change(screen.getByRole('textbox'), { target:…
+     67|
+     68|     fireEvent.click(screen.getByRole('button', { name: 'Close', exact:…
+       |                            ^
+     69|
+     70|     expect(onClose).toHaveBeenCalledOnce()
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 1 passed (3)
+   Start at  11:57:15
+   Duration  2.87s (transform 424ms, setup 63ms, import 1.88s, tests 555ms, environment 295ms)
+
