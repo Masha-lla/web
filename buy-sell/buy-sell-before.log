@@ -1,0 +1,207 @@
+ERROR Cannot read properties of undefined (reading 'locale')
+ERROR Cannot read properties of undefined (reading 'locale')
+ERROR Cannot read properties of undefined (reading 'locale')
+before buy href #/ramp/buy
+url http://localhost:3190/#/ramp/buy
+Échange
+Explorer
+Gagner
+
+Écosystème
+
+Connecter un porte-monnaie
+
+Achetez des cryptos en quelques secondes
+
+Utilisez une carte de crédit, une carte de débit ou un compte bancaire. Achetez du Bitcoin, de l'Ethereum, de l'USDT, de l'USDC ou d'autres cryptomonnaies populaires. Prestataires sans KYC disponibles.
+
+*Vous pouvez également vendre des cryptos directement contre de l'argent sur votre compte bancaire.
+
+Acheter
+Vendre
+
+Acheter avec des
+
+USD - US Dollar
+CAD - Canadian Dollar
+EUR - Euro
+AED - United Arab Emirates Dirham
+AFN - Afghan Afghani
+ALL - Albanian Lek
+AMD - Armenian Dram
+ARS - Argentine Peso
+AOA - Angolan Kwanza
+AUD - Australian Dollar
+AZN - Azerbaijani Manat
+BBD - Barbadian Dollar
+BAM - Bosnia-Herzegovina Convertible Mark
+BDT - Bangladeshi Taka
+BGN - Bulgarian Lev
+BHD - Bahraini Dinar
+BIF - Burundian Franc
+BMD - Bermudan Dollar
+BND - Brunei Dollar
+BOB - Bolivian Boliviano
+BRL - Brazilian Real
+BWP - Botswanan Pula
+BYN - Belarusian Ruble
+BZD - Belize Dollar
+CDF - Congolese Franc
+CHF - Swiss Franc
+CLP - Chilean Peso
+CNY - Chinese Yuan
+COP - Colombian Peso
+CRC - Costa Rican Colón
+CVE - Cape Verdean Escudo
+CZK - Czech Republic Koruna
+DJF - Djiboutian Franc
+DKK - Danish Krone
+DOP - Dominican Peso
+DZD - Algerian Dinar
+EEK - Estonian Kroon
+EGP - Egyptian Pound
+ERN - Eritrean Nakfa
+ETB - Ethiopian Birr
+FKP - Falkland Islands Pound
+FJD - Fijian Dollar
+GBP - British Pound Sterling
+GEL - Georgian Lari
+GHS - Ghanaian Cedi
+GNF - Guinean Franc
+GIP - Gibraltar Pound
+GTQ - Guatemalan Quetzal
+HKD - Hong Kong Dollar
+HNL - Honduran Lempira
+HRK - Croatian Kuna
+HUF - Hungarian Forint
+IDR - Indonesian Rupiah
+ILS - Israeli New Sheqel
+INR - Indian Rupee
+IQD - Iraqi Dinar
+IRR - Iranian Rial
+ISK - Icelandic Króna
+JMD - Jamaican Dollar
+JOD - Jordanian Dinar
+JPY - Japanese Yen
+KES - Kenyan Shilling
+KHR - Cambodian Riel
+KMF - Comorian Franc
+KGS - Kyrgystani Som
+KRW - South Korean Won
+KWD - Kuwaiti Dinar
+KZT - Kazakhstani Tenge
+LBP - Lebanese Pound
+LKR - Sri Lankan Rupee
+LTL - Lithuanian Litas
+LVL - Latvian Lats
+LYD - Libyan Dinar
+MAD - Moroccan Dirham
+MDL - Moldovan Leu
+MGA - Malagasy Ariary
+MKD - Macedonian Denar
+MMK - Myanma Kyat
+MOP - Macanese Pataca
+MWK - Malawian Kwacha
+MUR -
+before sell href #/ramp/sell
+url http://localhost:3190/#/ramp/sell
+Échange
+Explorer
+Gagner
+
+Écosystème
+
+Connecter un porte-monnaie
+
+Vendez des cryptos en quelques secondes
+
+Utilisez une carte de crédit, une carte de débit ou un compte bancaire. Vendez du Bitcoin, de l'Ethereum, de l'USDT, de l'USDC ou d'autres cryptomonnaies populaires. Prestataires sans KYC disponibles.
+
+*Vous pouvez également vendre des cryptos directement contre de l'argent sur votre compte bancaire.
+
+Acheter
+Vendre
+
+Vendre contre des
+
+USD - US Dollar
+CAD - Canadian Dollar
+EUR - Euro
+AED - United Arab Emirates Dirham
+AFN - Afghan Afghani
+ALL - Albanian Lek
+AMD - Armenian Dram
+ARS - Argentine Peso
+AOA - Angolan Kwanza
+AUD - Australian Dollar
+AZN - Azerbaijani Manat
+BBD - Barbadian Dollar
+BAM - Bosnia-Herzegovina Convertible Mark
+BDT - Bangladeshi Taka
+BGN - Bulgarian Lev
+BHD - Bahraini Dinar
+BIF - Burundian Franc
+BMD - Bermudan Dollar
+BND - Brunei Dollar
+BOB - Bolivian Boliviano
+BRL - Brazilian Real
+BWP - Botswanan Pula
+BYN - Belarusian Ruble
+BZD - Belize Dollar
+CDF - Congolese Franc
+CHF - Swiss Franc
+CLP - Chilean Peso
+CNY - Chinese Yuan
+COP - Colombian Peso
+CRC - Costa Rican Colón
+CVE - Cape Verdean Escudo
+CZK - Czech Republic Koruna
+DJF - Djiboutian Franc
+DKK - Danish Krone
+DOP - Dominican Peso
+DZD - Algerian Dinar
+EEK - Estonian Kroon
+EGP - Egyptian Pound
+ERN - Eritrean Nakfa
+ETB - Ethiopian Birr
+FKP - Falkland Islands Pound
+FJD - Fijian Dollar
+GBP - British Pound Sterling
+GEL - Georgian Lari
+GHS - Ghanaian Cedi
+GNF - Guinean Franc
+GIP - Gibraltar Pound
+GTQ - Guatemalan Quetzal
+HKD - Hong Kong Dollar
+HNL - Honduran Lempira
+HRK - Croatian Kuna
+HUF - Hungarian Forint
+IDR - Indonesian Rupiah
+ILS - Israeli New Sheqel
+INR - Indian Rupee
+IQD - Iraqi Dinar
+IRR - Iranian Rial
+ISK - Icelandic Króna
+JMD - Jamaican Dollar
+JOD - Jordanian Dinar
+JPY - Japanese Yen
+KES - Kenyan Shilling
+KHR - Cambodian Riel
+KMF - Comorian Franc
+KGS - Kyrgystani Som
+KRW - South Korean Won
+KWD - Kuwaiti Dinar
+KZT - Kazakhstani Tenge
+LBP - Lebanese Pound
+LKR - Sri Lankan Rupee
+LTL - Lithuanian Litas
+LVL - Latvian Lats
+LYD - Libyan Dinar
+MAD - Moroccan Dirham
+MDL - Moldovan Leu
+MGA - Malagasy Ariary
+MKD - Macedonian Denar
+MMK - Myanma Kyat
+MOP - Macanese Pataca
+MWK - Malawian Kwacha
+MUR - 
