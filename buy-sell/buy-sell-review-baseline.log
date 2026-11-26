@@ -1,0 +1,288 @@
+
+ RUN  v4.1.12 /private/tmp/shapeshift-11609
+
+stderr | src/components/MultiHopTrade/components/SharedTradeInput/SharedTradeInputHeader.test.tsx > SharedTradeInputHeader route changes > tracks parent buy/sell direction changes and toggles from the current direction
+`ReactDOMTestUtils.act` is deprecated in favor of `React.act`. Import `act` from `react` instead of `react-dom/test-utils`. See https://react.dev/warnings/react-dom-test-utils for more info.
+Warning: Missing translation for key: "navBar.swap"
+Warning: Missing translation for key: "navBar.buyCryptoShort"
+Warning: Missing translation for key: "navBar.earn"
+Warning: Missing translation for key: "common.trade"
+Warning: Missing translation for key: "navBar.swap"
+Warning: Missing translation for key: "navBar.buyCryptoShort"
+Warning: Missing translation for key: "navBar.earn"
+Warning: Missing translation for key: "navBar.swap"
+Warning: Missing translation for key: "navBar.buyCryptoShort"
+Warning: Missing translation for key: "navBar.earn"
+Warning: Missing translation for key: "common.trade"
+Warning: Missing translation for key: "navBar.swap"
+Warning: Missing translation for key: "navBar.buyCryptoShort"
+Warning: Missing translation for key: "navBar.earn"
+
+stderr | src/components/MultiHopTrade/components/SharedTradeInput/SharedTradeInputHeader.test.tsx
+motion() is deprecated. Use motion.create() instead.
+
+ ❯ |web| src/components/MultiHopTrade/components/SharedTradeInput/SharedTradeInputHeader.test.tsx (1 test | 1 failed) 79ms
+     × tracks parent buy/sell direction changes and toggles from the current direction 78ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |web| src/components/MultiHopTrade/components/SharedTradeInput/SharedTradeInputHeader.test.tsx > SharedTradeInputHeader route changes > tracks parent buy/sell direction changes and toggles from the current direction
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Sell"
+
+Here are the accessible roles:
+
+  heading:
+
+  Name "navBar.swap":
+  [36m<h5[39m
+    [33mclass[39m=[32m"chakra-heading css-1vr6757"[39m
+  [36m/>[39m
+
+  Name "navBar.buyCryptoShort":
+  [36m<h5[39m
+    [33mclass[39m=[32m"chakra-heading css-18cb01y"[39m
+  [36m/>[39m
+
+  Name "navBar.earn":
+  [36m<h5[39m
+    [33mclass[39m=[32m"chakra-heading css-1vr6757"[39m
+    [33mdata-testid[39m=[32m"trade-tab-earn"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  separator:
+
+  Name "":
+  [36m<hr[39m
+    [33maria-orientation[39m=[32m"horizontal"[39m
+    [33mclass[39m=[32m"chakra-divider css-6uijj0"[39m
+  [36m/>[39m
+
+  Name "":
+  [36m<hr[39m
+    [33maria-orientation[39m=[32m"horizontal"[39m
+    [33mclass[39m=[32m"chakra-divider css-6uijj0"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  button:
+
+  Name "Buy":
+  [36m<button[39m
+    [33mclass[39m=[32m"chakra-button css-gp2qta"[39m
+    [33mtype[39m=[32m"button"[39m
+  [36m/>[39m
+
+  --------------------------------------------------region:
+
+  Name "Notifications-top":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-top-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-top-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-left":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-left"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+  [36m/>[39m
+
+  Name "Notifications-bottom-right":
+  [36m<div[39m
+    [33maria-label[39m=[32m"Notifications-bottom-right"[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
+    [33mrole[39m=[32m"region"[39m
+    [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<body[39m
+  [33mclass[39m=[32m"chakra-ui-light"[39m
+[36m>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"chakra-card css-jv498s"[39m
+    [36m>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"chakra-card__header swapper-header css-j1ecu1"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"css-1lekzkb"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"css-1azotaz"[39m
+          [36m>[39m
+            [36m<h5[39m
+              [33mclass[39m=[32m"chakra-heading css-1vr6757"[39m
+            [36m>[39m
+              [0mnavBar.swap[0m
+            [36m</h5>[39m
+            [36m<h5[39m
+              [33mclass[39m=[32m"chakra-heading css-18cb01y"[39m
+            [36m>[39m
+              [0mnavBar.buyCryptoShort[0m
+            [36m</h5>[39m
+            [36m<h5[39m
+              [33mclass[39m=[32m"chakra-heading css-1vr6757"[39m
+              [33mdata-testid[39m=[32m"trade-tab-earn"[39m
+            [36m>[39m
+              [0mnavBar.earn[0m
+            [36m</h5>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"css-12w0bku"[39m
+          [36m/>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"css-mxz1nf"[39m
+        [36m>[39m
+          [36m<hr[39m
+            [33maria-orientation[39m=[32m"horizontal"[39m
+            [33mclass[39m=[32m"chakra-divider css-6uijj0"[39m
+          [36m/>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"chakra-button css-gp2qta"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mBuy[0m
+            [36m<span[39m
+              [33mclass[39m=[32m"chakra-button__icon css-1hzyiq5"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mfocusable[39m=[32m"false"[39m
+                [33mfont-size[39m=[32m"1em"[39m
+                [33mheight[39m=[32m"1em"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"1em"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"m7 15 5 5 5-5"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"m7 9 5-5 5 5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</span>[39m
+          [36m</button>[39m
+          [36m<hr[39m
+            [33maria-orientation[39m=[32m"horizontal"[39m
+            [33mclass[39m=[32m"chakra-divider css-6uijj0"[39m
+          [36m/>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+    [36m<span[39m
+      [33mhidden[39m=[32m""[39m
+      [33mid[39m=[32m"__chakra_env"[39m
+    [36m/>[39m
+  [36m</div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"chakra-portal"[39m
+  [36m>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top-left"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top-left"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-top-right"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-top-right"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom-left"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom-left"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column; margin: 0px auto;"[39m
+    [36m/>[39m
+    [36m<div[39m
+      [33maria-label[39m=[32m"Notifications-bottom-right"[39m
+      [33maria-live[39m=[32m"polite"[39m
+      [33mid[39m=[32m"chakra-toast-manager-bottom-right"[39m
+      [33mrole[39m=[32m"region"[39m
+      [33mstyle[39m=[32m"position: fixed; z-index: var(--toast-z-index, 5500); pointer-events: none; display: flex; flex-direction: column;"[39m
+    [36m/>[39m
+  [36m</div>[39m
+[36m</body>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ src/components/MultiHopTrade/components/SharedTradeInput/SharedTradeInputHeader.test.tsx:31:28
+     29|
+     30|     rerender(header(TradeInputTab.SellFiat))
+     31|     fireEvent.click(screen.getByRole('button', { name: 'Sell', exact: …
+       |                            ^
+     32|     expect(onChangeTab).toHaveBeenLastCalledWith(TradeInputTab.BuyFiat)
+     33|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed (1)
+   Start at  12:31:40
+   Duration  670ms (transform 100ms, setup 38ms, import 377ms, tests 79ms, environment 98ms)
+

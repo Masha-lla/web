@@ -1,0 +1,59 @@
+ERROR Cannot read properties of undefined (reading 'locale')
+ERROR Cannot read properties of undefined (reading 'locale')
+ERROR Cannot read properties of undefined (reading 'locale')
+after buy href #/ramp/trade/buy
+url http://localhost:3190/#/ramp/trade/buy
+Échange
+Explorer
+Gagner
+
+Écosystème
+
+Connecter un porte-monnaie
+
+Échanger
+Achat/Vente
+Gagner
+Acheter
+
+Payez avec
+
+USD
+$100
+$300
+$1000
+Vous obtenez
+BTC
+
+≈ $0.00
+
+Adresse de réception
+
+Connecter un porte-monnaie
+Notre dApp utilise un suivi des clics anonymisé pour analyser les performances et améliorer votre expérience. En utilisant app.shapeshift.com, vous acceptez notre suivi. Visitez private.shapeshift.com si vous ne souhaitez pas être suivi de manière anonyme. Consultez notre Politique de confidentialité pour plus de détails.
+J'ai compris
+after sell href #/ramp/trade/sell
+url http://localhost:3190/#/ramp/trade/sell
+Échange
+Explorer
+Gagner
+
+Écosystème
+
+Connecter un porte-monnaie
+
+Échanger
+Achat/Vente
+Gagner
+Vendre
+Montant à vendre
+ETH
+
+≈ $0.00
+
+Montant à recevoir
+
+USD
+Connecter un porte-monnaie
+Notre dApp utilise un suivi des clics anonymisé pour analyser les performances et améliorer votre expérience. En utilisant app.shapeshift.com, vous acceptez notre suivi. Visitez private.shapeshift.com si vous ne souhaitez pas être suivi de manière anonyme. Consultez notre Politique de confidentialité pour plus de détails.
+J'ai compris
